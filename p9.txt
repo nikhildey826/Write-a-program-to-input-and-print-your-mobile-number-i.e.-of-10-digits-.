@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    long long int mobileNumber;
+
+    printf("Enter your 10-digit mobile number: ");
+    scanf("%lld", &mobileNumber);
+
+    printf("Your mobile number is: %lld\n", mobileNumber);
+
+    return 0;
+}
